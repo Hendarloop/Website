@@ -1,0 +1,66 @@
+
+table.body{
+    border-collapse: collapse;
+    width: 1100px;
+    margin: auto;
+}
+
+body{
+    margin: 0px;
+    background: url(rockywall_@2X.png) repeat;
+}
+
+#data-table{
+	border-collapse: collapse;
+}
+#data-table td, #data-table th{
+	border: solid 1px #21DA42;
+}
+#data-table th{
+	background: #0f9;
+}
+#data-table tr.ganjil td{
+	background: #D5F8E5;
+}
+#data-table tr.genap td{
+	background: #BDFFD5;
+}
+
+
+td.text-kanan{
+    text-align: right;
+    width: 189px;
+}
+
+input{
+    margin-left: 34px;
+}
+
+.marginnya{
+    margin-left: 34px;
+}
+
+img.transi-and-center{
+    margin-top: -4px;
+    margin-bottom: -3px;
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    box-shadow: 0px 0px 10px #ddd;
+    transition: transform 1s;
+    -webkit-transition: -webkit-transform 1s;
+}
+
+img.transi-and-center:hover{
+    transform: scale(2.2);
+    -webkit-transform: scale(2.2);
+}
+
+.link-style{
+	text-decoration: none;
+}
+
+.brd-radius4px{
+	border-radius: 2px;
+}
